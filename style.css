@@ -83,6 +83,7 @@ main li{
     font-weight: 700;
     font-size: 2.4rem;
     line-height: 3.2rem;
+    margin-top: 3.2rem;
 
     color: #090039;
 
@@ -90,4 +91,32 @@ main li{
 
     display: flex;
     gap: 3.8rem
+}
+
+@media (min-width:700px){
+
+    body{
+        padding-top: 8.0rem;
+    }
+    main{
+        max-width: 1020px;
+        display: flex;
+        gap: 11.6rem;
+    }
+
+    h1{
+        width: 484px;
+    }
+
+    p{
+        width: 484px;
+    }
+
+    ul li{
+        gap: 5.3rem;
+        max-width: 420px;
+        align-items: center;
+        margin-top: 3.2rem;
+        
+    }
 }
